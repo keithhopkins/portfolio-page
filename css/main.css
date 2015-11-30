@@ -1,0 +1,42 @@
+header {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 800px;
+  background-image: url("../assets/Landscape-Photography-Brisbane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+.v-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.v-center p {
+  font-size: 30px;
+}
+
+.white {
+  color: white;
+}
+
+.project {
+
+}
+
+.project img {
+  width: 100%;
+  height: 40%;
+  display: inline-block;
+}
+
+.project p {
+  width: 100%;
+  height: 60%;
+}
