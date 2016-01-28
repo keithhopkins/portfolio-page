@@ -1,20 +1,36 @@
+body {
+  background-color: #262626;
+  color: white;
+}
+
 header {
-  padding: 0px;
-  margin: 0px;
   width: 100%;
-  height: 800px;
-  background-image: url("../assets/Landscape-Photography-Brisbane.jpg");
+  height: 600px;
+  background: url("https://thingiverse-production-new.s3.amazonaws.com/renders/5a/47/a8/ef/e0/il_fullxfull.480718659_fohn_preview_featured.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
+  color: black;
 }
 
-h1 {
+header h1 {
   font-size: 60px;
+  text-shadow: 2px 2px white;
 }
 
-/*.container {
-  margin-left: 17%;
-}*/
+header p {
+  font-size: 40px;
+  text-shadow: 2px 2px white;
+}
+
+img {
+  height: 120px;
+  width: 120px;
+}
+
+.about {
+  font-size: 1.3em;
+}
 
 .v-center {
   position: relative;
@@ -22,21 +38,14 @@ h1 {
   transform: translateY(-50%);
 }
 
-.v-center p {
-  font-size: 30px;
-}
-
 .project-description {
+  color: black;
   font-size: 1.3em;
   text-align: center;
   padding: 5px 5px;
   position: relative;
   top: 50%;
   transform: translateY(-50%);
-}
-
-.white {
-  color: white;
 }
 
 .right-contact {
@@ -77,7 +86,7 @@ h1 {
 }
 
 .hexagon-in2 {
-	box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.28);
+	box-shadow: inset 0 0 0 200px rgba(204, 204, 204, 0.28);
 	overflow: hidden;
 	width: 100%;
 	height: 100%;
@@ -90,12 +99,12 @@ h1 {
 }
 
 .hexagon-in2:hover {
-  	box-shadow: inset 0 0 0 200px rgba(176, 218, 212, 0.58);
+  	box-shadow: inset 0 0 0 200px rgba(204, 204, 204, 0.58);
 }
 
 .hex-front {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.25s;
 }
 .hex-front:hover {
   opacity: 0;
